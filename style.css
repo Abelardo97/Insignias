@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: 	 	 	rgb(32,32,32)
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 650px;
+    margin: 5rem auto;
+    gap: 35px;
+}
+/* Diseño de los div */
+div {
+    border-radius: 1rem;
+    align-self: center;
+    justify-self: center;
+    border: 5px solid gray;
+}
+/* Diseño Insignias */
+.badge-element {
+    background-color: rgb(240, 235, 235);
+    height: 100px;
+    width: 100px;
+}
+
+.badge-element:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 10px black;
+}
+
+.gansito {
+    background-image: url(./assets/img/gansito.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pildora {
+    background-image: url(./assets/img/pildora.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.shuriken {
+    background-image: url(./assets/img/estrella.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bomba_humo {
+    background-image: url(./assets/img/humo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.naruto {
+    background-image: url(./assets/img/correr.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.corbatin {
+    background-image: url(./assets/img/moño.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.foto {
+    background-image: url(./assets/img/foto.jpeg);
+    background-size: cover;
+    grid-row: span 2;
+    grid-column: span 3;
+    justify-self: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 3rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
